@@ -1,0 +1,100 @@
+.education-section {
+  padding: 100px 20px;
+}
+
+.education-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.education-table-wrapper {
+  overflow-x: auto;
+  background: rgba(30, 42, 66, 0.4);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.education-table thead {
+  background: rgba(255, 140, 66, 0.1);
+}
+
+.education-table th {
+  padding: 20px 24px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff8c42;
+  border-bottom: 2px solid rgba(255, 140, 66, 0.3);
+  white-space: nowrap;
+}
+
+.education-table td {
+  padding: 24px;
+  font-size: 15px;
+  color: #b8bcc4;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.education-table tbody tr {
+  transition: background 0.2s;
+}
+
+.education-table tbody tr:hover {
+  background: rgba(255, 140, 66, 0.05);
+}
+
+.education-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.degree-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.degree-icon {
+  color: #ff8c42;
+  flex-shrink: 0;
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(255, 140, 66, 0.15);
+  border: 1px solid rgba(255, 140, 66, 0.3);
+  border-radius: 20px;
+  color: #ff8c42;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media (max-width: 968px) {
+  .education-table th,
+  .education-table td {
+    padding: 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-table {
+    font-size: 13px;
+  }
+
+  .education-table th,
+  .education-table td {
+    padding: 12px;
+  }
+
+  .degree-cell {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
