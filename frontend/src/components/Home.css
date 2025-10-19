@@ -125,32 +125,6 @@
   }
 }
 
-.code-decoration {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 200px;
-}
-
-.code-line {
-  height: 8px;
-  background: linear-gradient(90deg, transparent, #ff8c42, transparent);
-  margin: 20px 0;
-  border-radius: 4px;
-  animation: codeLine 2s ease-in-out infinite;
-}
-
-.code-line:nth-child(2) {
-  animation-delay: 0.5s;
-  width: 80%;
-}
-
-.code-line:nth-child(3) {
-  animation-delay: 1s;
-  width: 60%;
-}
-
 @keyframes pulse {
   0%, 100% {
     transform: scale(1);
