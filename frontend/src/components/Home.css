@@ -162,15 +162,6 @@
   }
 }
 
-@keyframes codeLine {
-  0%, 100% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
 @media (max-width: 968px) {
   .home-content {
     grid-template-columns: 1fr;
