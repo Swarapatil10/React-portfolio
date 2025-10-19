@@ -63,12 +63,11 @@ const Home = () => {
         </div>
         <div className="home-image">
           <div className="image-container">
-            <div className="gradient-circle"></div>
-            <div className="code-decoration">
-              <div className="code-line"></div>
-              <div className="code-line"></div>
-              <div className="code-line"></div>
-            </div>
+            <img 
+              src="/profile-photo.jpg" 
+              alt="Swara Patil" 
+              className="profile-photo"
+            />
           </div>
         </div>
       </div>
